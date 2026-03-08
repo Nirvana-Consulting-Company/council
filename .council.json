@@ -1,0 +1,26 @@
+{
+  "agents": {
+    "claude": {
+      "command": "claude",
+      "args": ["-p", "--model", "claude-opus-4-6", "--output-format", "text"],
+      "label": "Claude",
+      "color": "cyan"
+    },
+    "codex": {
+      "command": "codex",
+      "args": ["exec", "--full-auto", "-m", "gpt-5.3-codex"],
+      "label": "Codex",
+      "color": "green"
+    }
+  },
+  "defaultMode": "discuss",
+  "specFormat": "builders",
+  "repos": {
+    "cardiagnostic": "Nirvana-Consulting-Company/cardiagnostic",
+    "eureka": "Nirvana-Consulting-Company/Eureka",
+    "nirvana": "Nirvana-Consulting-Company/NirvanaBuilders",
+    "snowpatrol": "Nirvana-Consulting-Company/snowpatrol",
+    "zerofiapp": "Nirvana-Consulting-Company/zerofiapp"
+  },
+  "transcriptDir": "./transcripts"
+}
