@@ -4,7 +4,7 @@ Multi-agent CLI planning & review — convene your Council.
 
 ## What is Council?
 
-Council orchestrates multiple AI agents (Claude, Codex, etc.) to collaboratively plan features and review code. Each agent provides independent analysis, then Council synthesizes their perspectives.
+Council orchestrates multiple AI agents (Claude, Codex, etc.) to collaboratively plan features and review code. Each agent provides independent analysis, then Council synthesizes perspectives.
 
 ## Quick Start
 
@@ -48,6 +48,7 @@ npm run build # Compile TypeScript
 npm start     # Run compiled output
 ```
 
-## Architecture
+## Docs
 
-See [CODEMAP.md](CODEMAP.md) for directory structure and module relations.
+- [CODEMAP.md](CODEMAP.md) — Directory structure and module relations
+- [CLAUDE.md](CLAUDE.md) — Agent operating instructions
